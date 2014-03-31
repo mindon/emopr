@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Mindon Feng from http://mindon.github.io">
+  <title>Emoticons</title>
+  <script>var relEmo = "./"; // relative or absolute path where emoticons/ base on; </script>
+  <script src="emoticons/parser.js"></script>
+  <style>
+    body {
+      font-family: arial;
+      font-size: 19pt;
+    }
+
+    .demo1 {
+      margin: 60px 0;
+      font-size: 50pt;
+    }
+    .demo2 {
+      font-size: 90pt;
+    }
+  </style>
+ </head>
+ <body>
+ <script>
+  document.write( emopr('WOW! \nHello WeChat. [奋斗] /::)/::</::\'( \uE134  \ue001\n - Mindon Feng from http://mindon.github.io') );
+
+  document.write('<div class="demo1">'+emopr('[奋斗] /::)/::</::\'(')+'</div>');
+
+  document.write('<div class="demo2">'+emopr('\uE134  \ue001')+'</div>');
+ </script>
+ </body>
+</html>
